@@ -1,0 +1,46 @@
+
+    /* Estilos para o formulário */
+    body{
+        color: rgb(0, 0, 0);
+        background-color: #4a8582;
+    }
+    form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #6796bd;
+        border: 1px solid #d8b2b2;
+        border-radius: 5px;
+    }
+
+    /* Estilos para os campos de entrada de dados */
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px  #ccc;
+        border-radius: 3px;
+    }
+
+    /* Estilos para os rótulos dos campos */
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    /* Estilos para o botão de envio */
+    input[type="submit"] {
+        width: auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    /* Estilos para o botão de envio quando hover */
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
