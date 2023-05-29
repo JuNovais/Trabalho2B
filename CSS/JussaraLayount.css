@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(52, 27, 75);
+    color: rgb(255, 255, 255);
+    
+}
+.row {
+  margin-bottom: 10px;
+}
+form{
+    border: 0px solid  rgb(18, 12, 18); /* Define a borda com largura de 1px e cor cinza */
+    padding: 16px; 
+    border-radius: 18px;
+}
+
+.form-label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-check {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: rgb(8, 7, 7);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+@media (max-width: 576px) {
+  .col-md-6,
+  .col-md-4,
+  .col-md-2 {
+    width: 100%;
+  }
+}
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
