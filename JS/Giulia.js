@@ -1,2 +1,6 @@
 const inputs = document.querySelectorAll("[required]");
-console.log(inputs);
+inputs.forEach( (elemento)=>{
+    elemento.addEventListener("blur", (evento)=>{
+        console.log("sair")
+    });
+});
