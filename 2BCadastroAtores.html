@@ -4,10 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/GiuliaLayout.css">
+    <link rel="stylesheet" href="CSS/layout.css">
     <title>Ator/Atriz</title>
 </head>
 <body>
+    <nav class="topnav">
+        <a href="series.html">Series</a>
+        <a href="filme.html">Filmes</a>
+        <a href="home.html">Home</a>
+        <a href="contato.html">Ajuda</a>
+        <a href="2BCadastroAtores.html">Atores</a>
+        <a href="2BCadastroSeries.html">+Series</a>
+        <a href="2b.filmes.html">+Filme</a>
+        <a href="2b.lista.reproduçao.html">Recentes</a>
+        <a href="2BCadastrarUsuario.html">+Usuario</a>
+        <a href="Configurar.html" style="float: right;">Configuraçoes</a>
+        <a href="quemsomos.html" style="float: right;">Quem Somos</a>
+        <a href="cadastro.html" style="float: right;">Entrar/Cadastrar</a>
+        <a href="#" style="float: right;">
+            <form action="" method="post">
+                <label for="">Pesquisar</label>
+                <input type="text" name="" id=""
+                placeholder="O que Deseja ver?" maxlength="30">
+                <select name="" id="">
+                    <option selected></option>
+                    <option value="filmes">Filmes</option>
+                    <option value="series">Series</option>
+                </select>
+            </form>
+        </a>
+    </nav>
+    <center><h1>Atores/Atrizes</h1></center>
     
+    <p>Por favor, preencha o formulário abaixo para entrar em contato conosco:</p>
+    <form action="/enviar-contato" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <label for="Nascimento">Nascimento:</label>
+        <input type="text" id="Nascimento" name="Nascimento" required>
+        <br>
+        <label for="Nacionalidade">Nacionalidade:</label>
+        <input type="text" id="Nacionalidade" name="Nacionalidade" required>
+        <br>
+        <label for="Ocupação">Ocupação:</label>
+        <input type="text" id="Ocupação" name="Ocupação" required>
+        <br>
+        <label for="Principais Trabalhos">Principais Trabalhos:</label>
+        <input type="text" id="Principais Trabalhos" name="Principais Trabalhos" required>
+        <br>
+        <label for="Prêmios">Prêmios:</label>
+        <input type="text" id="Prêmios" name="Prêmios" required>
+        <br>
+        <label for="Progenitores">Progenitores:</label>
+        <input type="text" id="Progenitores" name="Progenitores" required>
+        <br>
+        <label for="Parentesco">Parentesco:</label>
+        <input type="text" id="Parentesco" name="Parentesco" required>
+        <br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <footer class="footer">
+        <h3>Obrigado por acessar nosso site</h3>
+        <h3>Espero que tenham se divertido</h3>
+        <h1>©2023, Todos Os Direitos Reservados Jnflix.bix</h1>
+    </footer>
 </body>
 </html>
