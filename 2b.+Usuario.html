@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/formulario.css">
+    <title> +Usuario</title>
+</head>
+<body>
+  <header id="header" class="main" style="opacity: 1;"></header>
+  <nav class="topnav">
+      <a href="1b.series.html">Series</a>
+      <a href="1b.filme.html">Filmes</a>
+      <a href="1b.home.html">Home</a>
+      <a href="1b.contato.html">Ajuda</a>
+      <a href="2b.+Atores.html">Atores</a>
+      <a href="2b.+Series.html">+Series</a>
+      <a href="2b.+filmes.html">+Filme</a>
+      <a href="2b.+Usuario.html">+Usuario</a>
+      <a href="Configurar.html" style="float: right;">Configuraçoes</a>
+      <a href="1b.quemsomos.html" style="float: right;">Quem Somos</a>
+      <a href="1b.cadastro.html" style="float: right;">Entrar/Cadastrar</a>
+      <a href="#" style="float: right;">
+          <form action="" method="post">
+              <label for="">Pesquisar</label>
+              <input type="text" name="" id=""
+              placeholder="O que Deseja ver?" maxlength="30">
+              <select name="" id="">
+                  <option selected></option>
+                  <option value="filmes">Filmes</option>
+                  <option value="series">Series</option>
+              </select>
+          </form>
+      </a>
+  </nav>
+  <center><h1>Bem vindo ao JNGflix</h1></center>
+<div class="container">
+    <form>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="nome" class="form-label">Nome:</label>
+              <input type="text" id="nome" class="form-control" name="nome" required>
+              <span class="mensagem-erro" data-erro></span>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="inputPassword4" required>
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="inputCity" required>
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Sexo</label>
+              <select id="inputState" class="form-select">
+                <option selected>Selecione</option>
+                <option>Feminino</option>
+                <option>Masculino</option>
+                <option>Outros</option>
+                <option>Prefiro não informar</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+    </form>
+    
+</div>
+</body>
+</html>
